@@ -20,9 +20,11 @@ def call(Map configMap){
                 }
             }
             stage('Deploy') { 
+                steps {
                     sh """
                     echo "${project} Deployment Success"
                     """
+                }
             }
         }   
     }

@@ -23,6 +23,7 @@ def call(Map configMap){
                     sh """
                     echo "${project} Deployment Success"
                     """
+            }
         }   
     }
 }
